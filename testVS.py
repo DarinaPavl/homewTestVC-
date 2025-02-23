@@ -171,9 +171,11 @@ student2.grades = {'Python': [9, 8, 7], 'Git': [6, 7]}
 lecturer1 = Lecturer('John', 'Doe')
 lecturer1.courses_attached += ['Python', 'Git']
 lecturer1.grades = {'Python': [10, 10, 9], 'Git': [8, 9]}
+student1.add_courses('Введение в программирование')
 lecturer2 = Lecturer('Tigr', 'Li')
 lecturer2.courses_attached += ['Python', 'Git']
 lecturer2.grades = {'Python': [9, 8, 8], 'Git': [7, 8]}
+student2.add_courses('Основы языка')
 
 reviewer1 = Reviewer('Some', 'Buddy')
 reviewer1.courses_attached += ['Python', 'Git']
